@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header {
+    justify-content: end;
+    align-items: end;
+    display: flex;
+}
+.www{
+    position: absolute;
+    top: 100px;
+    left: 520px;
+    font-weight: 900;
+    font-size: 100px;
+}
+.list li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    
+}
+.list li a{
+    color: black;
+}
+
+.a{
+    color: blue;
+}
+.b{
+    color: red;
+}
+.c{
+    color: orange;
+}
+.d{
+    color: blue;
+}
+.e{
+    color: green;
+}
+.f{
+    color: red;
+}
+.a{
+    text-decoration: none;
+}
+ .containter{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.js2{
+    background-color:qua;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .color{
+    background-color: blue;
+    padding: 3px;
+ }
+.text{
+    border-radius: 30px;
+    position: absolute;
+    left: 420px;
+    bottom: 349px;
+    width: 39%;
+    height: 7%;
+
+}
+.y{
+    position: absolute;
+    left: 600px;
+    bottom: 320px;
+}
+.k{
+    position: absolute;
+    right: 540px;
+    top: 280px;
+}
+.k ul li{
+    display: inline-block;
+
+}
+.footer1{
+    background-color: wheat;
+    position: absolute;
+    bottom: 29px;
+    left: 7px;
+    padding-right: 100%;
+}
+.footer2{
+    background-color: wheat;
+    transform: translateY(550px);
+    padding-right: 1%;
+    justify-content: space;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.ss1 ul li{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.ss2 ul li{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.ss3 ul li{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
+}

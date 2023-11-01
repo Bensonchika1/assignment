@@ -1,0 +1,76 @@
+.div1{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    animation-name:colorchange ;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: colorChange 5s infinite;
+    animation: bounce 5s infinite;
+}
+@keyframes colorChange {
+    from{
+        transform: translateY();
+        background-color: blue;
+    }
+    to{
+        background-color: black;
+    }
+    from{
+        background-color: pink;
+    }
+}
+@keybounce colorChange{
+    30%{
+        
+    }
+
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    animation-name: chika;
+    animation: chika 5s infinite;
+    position: absolute;
+    left: 300px;
+}
+@keyframes chika {
+   25%{
+    transform: translateY(-100px);
+        background-color: orange;
+    }
+    50%{
+        transform: translateY(50px);
+        background-color: red;
+    }
+    75%{
+        transform: translateY(-70px);
+        background-color: aqua;
+    }
+    100%{
+        transform: translateY(0);
+        background-color: blueviolet;
+    }
+}
+@keybounce chika{
+   
+    100%{
+
+    }
+}
+.div3{
+    height: 300px;
+    width: 300px;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(ff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.second_box{
+    height: 80%;
+    width: 80%;
+    display: flex;
+
+}
+.left_box{
+height: 100%;
+width: 50%;
+}
+.right{
+    height: 100%;
+    width: 50%;
+
+}
+.left_box img{
+    height: 0%;
+    width: 0%;
+    background-color: blueviolet;
+}
+.dots{
+    border-radius: 5%;
+    display: flex;
+}
+
+.dot1{
+width: 15px;
+height: 15px;
+background-color: black;
+}
+.dot2{
+    width: 18px;
+    height: 18px;
+    background-color: green;
+}
+.dot3{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}

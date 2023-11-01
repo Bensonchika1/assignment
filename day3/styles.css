@@ -1,0 +1,22 @@
+.container{
+    width: 5000px;
+    height: 160px;
+    background-color: aqua;
+    justify-content: center;
+}
+.submit{
+    width: 300000px;
+    height: 40px;
+    font-style: italic;
+    background-color: aqua;
+    padding: 29px 1px 3px 50px; 
+    margin: 4px;
+
+}
+.links{
+    padding-left: 68px;
+
+}
+.link2{
+    padding-left: 68px;
+}

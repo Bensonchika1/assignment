@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+.a{
+    width: 50px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    top: 90px;
+    left: 68px;
+    padding-left: 700px;
+}
+.b{
+    width: 50px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    top: 90px;
+    left:6px;
+    padding-bottom: 700px;
+    padding-right: 300px;
+    margin: 12%;
+}
+.c{
+    width: 50px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    left: 300px;
+}
+.c{
+    width: 50px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 100px;
+}
